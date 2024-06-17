@@ -1,0 +1,221 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #333;
+    text-align: center;
+}
+
+.navbar.bg-black {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.home-background {
+    background: url('https://w0.peakpx.com/wallpaper/636/836/HD-wallpaper-colorful-laptop-with-black-background-black-aesthetic.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.about-background, .skills-background, .contact-background {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-background {
+    background-color: #222;
+}
+
+.skills-background {
+    background-color: #686D76;
+}
+
+.contact-background {
+    background-color: #747264;
+    padding: 50px 0;
+}
+
+.footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 5px 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links a {
+    color: #80C4E9;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.underline {
+    width: 6%;
+    height: 2px;
+    background-color: #80C4E9;
+    margin: 0 auto 20px;
+}
+
+.skills-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.skill-card {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card:hover {
+    background-color: #555;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #80C4E9;
+}
+
+.skill-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    margin: 10px 0;
+}
+
+.star-rating {
+    color: gold;
+}
+
+.contact-form {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.btn-custom {
+    background-color: #80C4E9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-info h3 {
+    color: #fff;
+}
+
+.contact-details li {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-details i {
+    color: #80C4E9;
+    margin-right: 10px;
+}
+
+.about-content {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.profile-img-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 200px;
+    border: 5px solid #80C4E9;
+}
+
+.intro {
+    font-family: 'Lobster', cursive;
+    color: #80C4E9;
+    margin-bottom: 15px;
+}
+
+.bio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ccc;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skills-icons h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #80C4E9;
+    margin-top: 20px;
+}
+
+.skills-icons .list-inline-item {
+    color: #ccc;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.skills-icons .list-inline-item i {
+    color: #80C4E9;
+    margin-right: 5px;
+}
